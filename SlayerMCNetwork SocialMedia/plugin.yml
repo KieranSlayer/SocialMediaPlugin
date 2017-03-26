@@ -1,0 +1,13 @@
+main: me.kieranslayer.sm.Main
+version: 1.6
+Author: KieranSlayer
+name: SocialMediaPlugin
+commands:
+  Discord:
+    usage: /<command>
+    description: Give you discord link
+    aliases: []
+  ServerIP:
+    usage: /<command>
+    description: Give you Server IP
+    aliases: [sip,server,ip]
