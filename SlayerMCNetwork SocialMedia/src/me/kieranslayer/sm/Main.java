@@ -14,15 +14,7 @@ import java.util.logging.Logger;
  */
 public class Main extends JavaPlugin
         implements Listener {
-    public Integer afk;
-    public boolean UpdateAviable;
-    public boolean sc;
-    public String version;
-    public static Main instance;
-    public int customtagsinterval;
-    public int customtags;
-    public boolean dispatch_command;
-	public String prefix;
+
         
         
         
@@ -46,7 +38,7 @@ public class Main extends JavaPlugin
     private void registerCommands(){
         this.getCommand("discord").setExecutor(new Discord(this));
         this.getCommand("serverip").setExecutor(new ServerIP(this));
-
+        this.getCommand("website").setExecutor(new Website(this));
     }
     public void onDisabled() {
         PluginDescriptionFile pdfFile = this.getDescription();
