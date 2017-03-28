@@ -39,6 +39,7 @@ public class Main extends JavaPlugin
         this.getCommand("discord").setExecutor(new Discord(this));
         this.getCommand("serverip").setExecutor(new ServerIP(this));
         this.getCommand("website").setExecutor(new Website(this));
+        this.getCommand("facebook").setExecutor(new Website(this));
     }
     public void onDisabled() {
         PluginDescriptionFile pdfFile = this.getDescription();
