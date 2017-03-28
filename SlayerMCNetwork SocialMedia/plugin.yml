@@ -11,3 +11,11 @@ commands:
     usage: /<command>
     description: Give you Server IP
     aliases: [sip,server,ip]
+  Website:
+    usage: /<command>
+    description: Give you discord link
+    aliases: [wb]
+  Facebook:
+    usage: /<command>
+    description: Give you discord link
+    aliases: [fb]
