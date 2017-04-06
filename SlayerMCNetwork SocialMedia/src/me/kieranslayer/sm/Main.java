@@ -40,6 +40,8 @@ public class Main extends JavaPlugin
         this.getCommand("serverip").setExecutor(new ServerIP(this));
         this.getCommand("website").setExecutor(new Website(this));
         this.getCommand("facebook").setExecutor(new Website(this));
+        this.getCommand("twitter").setExecutor(new Twitter(this));
+        this.getCommand("teamspeak").setExecutor(new TeamSpeak(this));
     }
     public void onDisabled() {
         PluginDescriptionFile pdfFile = this.getDescription();

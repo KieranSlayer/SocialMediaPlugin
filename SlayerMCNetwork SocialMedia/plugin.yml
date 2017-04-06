@@ -13,9 +13,17 @@ commands:
     aliases: [sip,server,ip]
   Website:
     usage: /<command>
-    description: Give you discord link
+    description: Give you Website link
     aliases: [wb]
   Facebook:
     usage: /<command>
-    description: Give you discord link
+    description: Give you Facebook link
     aliases: [fb]
+  Twitter:
+    usage: /<command>
+    description: Give you Twitter link
+    aliases: [twit]
+  Teamspeak:
+    usage: /<command>
+    description: Give you Twitter link
+    aliases: [ts]
